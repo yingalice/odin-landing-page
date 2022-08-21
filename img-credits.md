@@ -1,0 +1,10 @@
+# Image Credits
+- [Globe Logo](https://pixabay.com/vectors/earth-globe-world-link-global-483978/) by Hikmat Nabiyev (https://pixabay.com/users/hikmatnabiyev-472706/)
+- [Aurora Borealis](https://pixabay.com/illustrations/aurora-borealis-couple-family-child-4075250/) by Rene Rauschenberger (https://pixabay.com/users/rauschenberger-4614580/)
+- [Camera and Photographs](https://pixabay.com/photos/camera-photographs-souvenir-1130731/) by Dariusz Sankowski (https://pixabay.com/users/dariuszsankowski-1441456/)
+- [Hobbiton Movie Set](https://unsplash.com/photos/CppuxXh6nxE) by Mike Swigunski (https://unsplash.com/@mike_swigunski)
+- [Eiffel Tower](https://unsplash.com/photos/WSvth_lwCi0) by Cyril Mazarin (https://unsplash.com/@cyril_m)
+- [Antelope Canyon](https://unsplash.com/photos/Xrx3WWyrwes) by Ameer Basheer (https://unsplash.com/@24ameer)
+- [Machu Picchu](https://www.pexels.com/photo/brown-llama-on-the-field-3879058/) by Alex Azabache (https://www.pexels.com/@alexazabache/)
+- [Oahu](https://unsplash.com/photos/0m7Ks0Z00Ro) by Jeremy Bishop (https://unsplash.com/@jeremybishop)
+- [Eilean Donan Castle](https://www.pexels.com/photo/stone-bridge-leading-to-castle-6726732/) by Magic K (https://www.pexels.com/@magic-k-24827758/)
