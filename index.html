@@ -5,79 +5,203 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Landing Page</title>
+  <link rel="icon" type="image/png" href="img/logo-world.png">
+  <script src="https://kit.fontawesome.com/602d755a29.js" crossorigin="anonymous"></script>
+  <title>Globetrotters Travel Agency</title>
 </head>
 <body>
   <header class="header">
     <div class="container">
-      <div class="logo">
-        Header Logo
+      <div class="row row--wrap header__row">
+        <div class="logo">
+          <a class="link" href="#">
+            <div class="row">
+              <img class="logo__img" src="img/logo-world.png" alt="Globetrotters logo" width="640" height="539">
+              <div class="logo__name">
+                <p class="logo__name1">Globetrotters</p>
+                <p class="logo__name2">Travel Agency</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="row row--wrap nav__row nav__list">
+            <li><a class="link nav__link" href="#about">About</a></li>
+            <li><a class="link nav__link" href="#destination">Destinations</a></li>
+            <li><a class="link nav__link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul class="links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <div class="text">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title.  It's a smaller font and the color is lower contrast</p>
-        <button class="sign-up">Sign up</button>
-      </div>
-      <img src="img/hero-aurora-borealis.jpg" alt="family silhouette under aurora borealis" width="480" height="319">
-    </div>
-  </section>
-
-  <section class="info">
-    <div class="container">
-      <h1>Some random information</h1>
-      <div class="boxes">
-        <div class="box">
-            <img src="img/placeholder-150.png" alt="150x150 placeholder">
-            <p>This is some subtext under an illustration or image<p>
-        </div>
-        <div class="box">
-          <img src="img/placeholder-150.png" alt="150x150 placeholder">
-          <p>This is some subtext under an illustration or image<p>
-        </div>
-        <div class="box">
-          <img src="img/placeholder-150.png" alt="150x150 placeholder">
-          <p>This is some subtext under an illustration or image<p>
-        </div>
-        <div class="box">
-          <img src="img/placeholder-150.png" alt="150x150 placeholder">
-          <p>This is some subtext under an illustration or image<p>
+  <main>
+    <section class="section hero">
+      <div class="container">
+        <div class="row hero__row">
+          <div class="hero__text">
+            <h1 class="hero__title">Travel planning made easy</h1>
+            <p class="hero__description">For over 15 years, travelers have trusted us to curate exceptional plans and deliver irresistible deals.  Let us help make your dream vacation reality!</p>
+            <button class="btn">Get started</button>
+          </div>
+          <div class="hero__img-wrapper">
+            <img class="hero__img" src="img/hero-aurora-borealis.jpg" alt="Family silhouette under Aurora Borealis" width="640" height="426">
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="quote">
-    <div class="container">
-      <blockquote class="text">This is an inspiring quote, or a testimonial from a customer.  Maybe it's just filling up space, or maybe people will actually read it.  Who knows?  All I know is that it looks nice.</blockquote>
-      <p class="author">-Thor, God of Thunder</p>
-    </div>
-  </section>
-
-  <section class="cta">
-    <div class="container">
-      <div class="text">
-        <h2>Call to action!  It's time!</h2>
-        <p>Sign up for our product by clicking that button right over there!</p>
+    <section class="section explore" id="about">
+      <div class="container">
+        <h2 class="section-title section-title--spacer">Explore the world your way</h2>
+        <div class="explore__description">
+          <p>Physical or virtual travel?  Plan or be surprised?  The choice is yours!</p>
+          <br>
+          <p>With annual sales exceeding $1 billion, we leverage our network of global connections to bring you unforgettable experiences at low prices!</p>
+        </div>
+        <div class="row row--wrap explore__row">
+          <div class="card card--product product">
+            <div class="product__header">
+              <h3 class="product__title"><i class="fa-solid fa-suitcase icon-spacer"></i>Dream Vacation</h3>
+              <h4 class="product__subtitle">Ready to relax?</h4>
+            </div>
+            <p class="product__description">Our travel agents create unique trips and provide expert guidance to take the stress out of planning.  From family vacations to romantic rendezvous, we have your back!</p>
+          </div>
+          <div class="card card--product product">
+            <div class="product__header">
+              <h3 class="product__title"><i class="fa-solid fa-earth-americas icon-spacer"></i>Mystery Package</h3>
+              <h4 class="product__subtitle">Too busy to plan?</h4>
+            </div>
+            <p class="product__description">Let us do the work and send you to a surprise destination.  Travel, lodging, and excursions are thoughtfully crafted and tailored to your interests and budget!</p>
+          </div>
+          <div class="card card--product product">
+            <div class="product__header">
+              <h3 class="product__title"><i class="fa-solid fa-tv icon-spacer"></i>Interactive Livestreams</h3>
+              <h4 class="product__subtitle">Prefer to stay in?</h4>
+            </div>
+            <p class="product__description">Explore the world from the comfort of your own home.  Join local tour guides from all over the globe as they livestream and interact with you in chat!</p>
+          </div>
+        </div>
       </div>
-      <button>Sign up</button>
-    </div>
-  </section>
+    </section>
+
+    <section class="section destination" id="destination">
+      <div class="container">
+        <h2 class="section-title section-title--fancy">50+ countries</h2>
+        <h2 class="section-title">your next adventure awaits</h2>
+        <div class="destination__link-wrapper">
+          <a class="link destination__link" href="#">See all destinations</a>
+        </div>
+        <div class="row row--wrap destination__row">
+          <div class="card card--destination">
+            <div class="destination__img-wrapper">
+              <img class="destination__img" src="img/dest-hobbit-nz.jpg" alt="Hobbiton Movie Set in New Zealand, with steps leading to circular door" width="640" height="960">
+            </div>
+            <div class="destination__location">
+              <p>Hobbiton Movie Set<br>
+              New Zealand</p>
+            </div>
+          </div>
+          <div class="card card--destination">
+            <div class="destination__img-wrapper">
+              <img class="destination__img" src="img/dest-eiffel-tower.jpg" alt="Eiffel Tower in Paris, France, taken from cobblestone street" width="640" height="960">
+            </div>
+            <div class="destination__location">
+              <p>Eiffel Tower<br>
+              Paris, France</p>
+            </div>
+          </div>
+          <div class="card card--destination">
+            <div class="destination__img-wrapper">
+              <img class="destination__img" src="img/dest-antelope-canyon.jpg" alt="Antelope Canyon in Arizona, US, with starry night sky peeking through" width="640" height="960">
+            </div>
+            <div class="destination__location">
+              <p>Antelope Canyon<br>
+              Arizona, US</p>
+            </div>
+          </div>
+          <div class="card card--destination">
+            <div class="destination__img-wrapper">
+              <img class="destination__img" src="img/dest-machu-picchu.jpg" alt="Machu Picchu in Peru, with llamas in front of ruins" width="640" height="960">
+            </div>
+            <div class="destination__location">
+              <p>Machu Picchu<br>
+              Peru</p>
+            </div>
+          </div>
+          <div class="card card--destination">
+            <div class="destination__img-wrapper">
+              <img class="destination__img" src="img/dest-kauai-hawaii.jpg" alt="Kauai in Hawaii, US, with wide-angle shot of lush greenery" width="640" height="960">
+            </div>
+            <div class="destination__location">
+              <p>Kauai<br>
+              Hawaii, US</p>
+            </div>
+          </div>
+          <div class="card card--destination">
+            <div class="destination__img-wrapper">
+              <img class="destination__img" src="img/dest-castle-scotland.jpg" alt="Eilean Donan Castle in Scotland, UK, with footbridge leading up to castle" width="640" height="959">
+            </div>
+            <div class="destination__location">
+              <p>Eilean Donan Castle<br>
+              Scotland, UK</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quote">
+      <figure class="container">
+        <blockquote class="quote__text">We did the mystery package for our 10th anniversary, and had a blast in Iceland.  The carefully crafted itinerary was spot-on!  An unbelievably fun trip with none of the planning headache!</blockquote>
+        <figcaption class="quote__credits">
+          <span class="quote__author">-Ashley M.</span> 04 August '22
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section-title section-title--spacer">Contact us</h2>
+        <div class="row row--wrap contact__row">
+          <div class="contact__item">
+            <h3 class="contact__title"><i class="fa-solid fa-phone icon-spacer"></i>Phone</h3>
+            <a class="link contact__link" href="tel:1-800-123-4567">(800) 123-4567</a>
+          </div>
+          <div class="contact__item">
+            <h3 class="contact__title"><i class="fa-solid fa-location-dot icon-spacer"></i>Location</h3>
+            <a class="link contact__link" href="#">Store locator</a>
+          </div>
+          <div class="contact__item">
+            <h3 class="contact__title"><i class="fa-solid fa-comment icon-spacer"></i>Chat</h3>
+            <a class="link contact__link" href="#">Live agent</a>
+          </div>
+          <div class="contact__item">
+            <h3 class="contact__title"><i class="fa-solid fa-envelope icon-spacer"></i>Message</h3>
+            <a class="link contact__link" href="#">Online form</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section newsletter">
+      <div class="container">
+        <div class="newsletter__box">
+          <div class="row newsletter__row">
+            <div class="newsletter__text">
+              <h3 class="newsletter__title">Join us for deals — it's free!</h3>
+              <p class="newsletter__description">Sign up for our newsletter to receive travel inspirations and exclusive promotions!</p>
+            </div>
+            <button class="btn newsletter__btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="container">
-      &copy; 2022 The Odin Project
+      <p class="footer__copyright">Copyright &copy; 2022 Globetrotters Travel Agency, Inc. by <a class="link footer__link" href="https://github.com/yingalice/odin-landing-page" target="_blank">yingalice</a> <i class="fa-brands fa-github"></i></p>
     </div>
   </footer>
 </body>
